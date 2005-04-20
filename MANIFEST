@@ -15,3 +15,4 @@ t/3_sort.t
 t/4_workout.t
 t/5_diskbuffer.t
 t/6_diskworkout.t
+META.yml                                 Module meta-data (added by MakeMaker)
