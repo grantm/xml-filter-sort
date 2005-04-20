@@ -12,7 +12,7 @@ require XML::SAX::Base;
 
 use vars qw($VERSION @ISA);
 
-$VERSION = '1.00';
+$VERSION = '1.01';
 
 @ISA = qw(XML::SAX::Base);
 
@@ -820,7 +820,7 @@ L<XML::SAX::Machines>.
 
 =head1 COPYRIGHT 
 
-Copyright 2002 Grant McLean E<lt>grantm@cpan.orgE<gt>
+Copyright 2002-2005 Grant McLean E<lt>grantm@cpan.orgE<gt>
 
 This library is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself. 

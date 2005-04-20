@@ -23,14 +23,9 @@ BUILDING/INSTALLING
       make install
 
 
-RELEASE HISTORY
-
-  Version 0.91 is the first release to CPAN
-
-
 COPYRIGHT
 
-  Copyright 2002 Grant McLean <grantm@cpan.org>
+  Copyright 2002-2005 Grant McLean <grantm@cpan.org>
 
   This library is free software; you can redistribute it and/or modify
   it under the same terms as Perl itself.
