@@ -143,6 +143,7 @@ my $xmlin = q(<person>
   <lastname>Boozle</lastname>
   <age unit='year'>35</age>
   <empty />
+  <zero>0</zero>
 </person>);
 
 my(@keyvals);
