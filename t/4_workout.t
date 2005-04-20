@@ -97,6 +97,7 @@ $xmlin = q(<list>
   <snackfood>popcorn</snackfood>
   <person>3<firstname>Wayne</firstname></person>
   <person>4<firstname>Xavier</firstname></person>
+  <trailer>0</trailer>
 </list>);
 
 $xmlout = '';
@@ -117,6 +118,7 @@ is($xmlout, q(<list>
   <snackfood>popcorn</snackfood>
   <person>3<firstname>Wayne</firstname></person>
   <person>4<firstname>Xavier</firstname></person>
+  <trailer>0</trailer>
 </list>), 'Sorted two independent lists (element between)');
 
 
