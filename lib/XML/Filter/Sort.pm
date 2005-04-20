@@ -1,5 +1,3 @@
-# $Id$
-
 package XML::Filter::Sort;
 
 use strict;
@@ -14,7 +12,7 @@ require XML::SAX::Base;
 
 use vars qw($VERSION @ISA);
 
-$VERSION = '0.91';
+$VERSION = '1.00';
 
 @ISA = qw(XML::SAX::Base);
 
@@ -455,7 +453,7 @@ sub processing_instruction {
 sub send_characters {
   my $self    = shift;
 
-  return unless($self->{char_buffer});
+  return unless(exists $self->{char_buffer});
   if($self->{buffer}) {
     $self->{buffer}->characters({Data => $self->{char_buffer}});
   }
