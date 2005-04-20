@@ -1,5 +1,3 @@
-# $Id$
-
 package XML::Filter::Sort::DiskBufferMgr;
 
 use strict;
@@ -17,10 +15,9 @@ use File::Temp qw(tempdir);
 #                     G L O B A L   V A R I A B L E S
 ##############################################################################
 
-use vars qw($VERSION @ISA);
+use vars qw(@ISA);
 
-$VERSION = '0.91';
-@ISA     = qw(XML::Filter::Sort::BufferMgr);
+@ISA = qw(XML::Filter::Sort::BufferMgr);
 
 use constant DEF_BUCKET_SIZE => 1024 * 1024 * 10;
 

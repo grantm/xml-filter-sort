@@ -1,5 +1,3 @@
-# $Id$
-
 package XML::Filter::Sort::DiskBuffer;
 
 use strict;
@@ -12,9 +10,8 @@ use Storable;
 #                     G L O B A L   V A R I A B L E S
 ##############################################################################
 
-use vars qw($VERSION @ISA);
+use vars qw(@ISA);
 
-$VERSION = '0.91';
 @ISA     = qw(XML::Filter::Sort::Buffer);
 
 

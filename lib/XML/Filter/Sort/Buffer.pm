@@ -1,5 +1,3 @@
-# $Id$
-
 package XML::Filter::Sort::Buffer;
 
 use strict;
@@ -7,10 +5,6 @@ use strict;
 ##############################################################################
 #                     G L O B A L   V A R I A B L E S
 ##############################################################################
-
-use vars qw($VERSION @ISA);
-
-$VERSION = '0.91';
 
 use constant NODE_TYPE    => 0;
 use constant NODE_DATA    => 1;
