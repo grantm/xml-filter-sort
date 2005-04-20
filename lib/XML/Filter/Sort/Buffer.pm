@@ -187,7 +187,8 @@ sub text_content {
 
   my $text = '';
 
-  while(my $node = shift) {
+  while(@_) {
+    my $node = shift;
     if(ref($node)) {
       if($node->[NODE_TYPE] eq 'e') {
 	if(@{$node->[NODE_CONTENT]}) {
@@ -238,7 +239,8 @@ sub to_sax {
 
   @_ = @{$self->{tree}} unless(@_);
 
-  while(my $node = shift) {
+  while(@_) {
+    my $node = shift;
     if(ref($node)) {
       if($node->[NODE_TYPE] eq 'e') {
 	$filter->start_element($node->[NODE_DATA]);
